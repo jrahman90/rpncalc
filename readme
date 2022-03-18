@@ -1,6 +1,6 @@
-RPM Calc:
+RPN Calc:
 ===================
-RPM Calc is a CLI tool for Reverse Polish Notation Calculations. 
+RPN Calc is a CLI tool for Reverse Polish Notation Calculations. 
 In a reverse polish notation calculator, first comes the integers,
 then the operators. example:
 
@@ -29,7 +29,7 @@ operators like addition(+), subtraction(-), multiplication(*), and division(/)
 In future releases we plan on implementing additional operators.
 
 ===================
-How to run RPM Calc:
+How to run RPN Calc:
 1. Make sure you have node running on your maching (you can check by running the command node on your terminal or command line)
 2. cd into the rpn-calc folder
 3. run $ node ./rpncalc
