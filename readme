@@ -10,11 +10,18 @@ RPN calculator:             5 2 -
                             3
 ===================
 
-
+This app takes in a reverse polish notation expression and returns the mathematical solution.
+in the command line you insert the expression, the algo will then take that expression and 
+loop through it. it takes the integers and puts them in a stack and once it detects an operator
+it takes the top 2 integers from the stack and calculates using the operator. then it places that 
+solution back on top of the stack. if there are more operators left in the stack it will keep
+running the algorithm until only one integer is left in the stack. at this point it will log
+that single integer in the stack which is our solution.  
 
 ===================
-* Reasoning behind your technical choices, including architectural
-readline API - 
+readline API - i used readline to get an input from the terminal. 
+JavaScript was used to write the algorithm. 
+
 ===================
 In this release you have the options of running standard arithmetic 
 operators like addition(+), subtraction(-), multiplication(*), and division(/)
