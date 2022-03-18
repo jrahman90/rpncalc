@@ -14,6 +14,7 @@ RPN calculator:             5 2 -
 
 ===================
 * Reasoning behind your technical choices, including architectural
+readline API - 
 ===================
 In this release you have the options of running standard arithmetic 
 operators like addition(+), subtraction(-), multiplication(*), and division(/)

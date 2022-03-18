@@ -34,8 +34,7 @@ function rpn(newExpression) {
     return stack[0];
   }
 }
-readline.question(`> `, (arg) => {
-  let str = arg;
-  console.log(rpn(str));
+readline.question(`> `, (expression) => {
+  console.log(rpn(expression));
   readline.close();
 });
